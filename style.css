@@ -1,0 +1,18 @@
+:root{
+    font-size: 15px;
+}
+
+div{
+
+    font-size: 15px;
+    width:max-content;
+    height: min-content;
+    background-color: pink;
+}
+h1{  
+    border: 0.1rem solid salmon;
+    width:max-content;
+    height: max-content;
+    font-size: 5px;
+    
+}

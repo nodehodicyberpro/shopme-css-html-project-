@@ -1,0 +1,92 @@
+/* div{
+}
+
+body{
+
+}
+.father{
+    display: flex;
+    column-gap: 10px;
+    row-gap: 10px;
+    flex-direction: column;
+}
+
+.div1{
+    display: flex;
+    column-gap: 10px;
+    width: 100px;
+    height: 150px;
+    background-color: fuchsia;
+}
+
+.div2{
+    width: 100px;
+    height: 150px;
+    background-color: gold;
+}
+h1{
+   
+} */
+
+body{
+    margin-left: 0px;
+}
+div{
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 100px 4fr 1fr  ;
+    grid-template-rows: 20% 100px 100px;
+    gap: 10px 2px; 
+}
+
+.d1{ 
+    grid-row-start: 1;
+    grid-row-end: 4;
+    /* grid-column-start: 2;
+    grid-column-end: 4; */
+    
+    width: 100%;
+    height: 100%;
+    background-color: deeppink;
+
+}
+    
+.d2{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(20, 255, 235);
+}
+.d3{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 0, 0);}
+.d4{
+    width: 100%;
+    height: 100%;
+    background-color: slateblue;}
+.d5{width: 100%;
+    height: 100%;
+    background-color: greenyellow;}
+
+button{
+    width: 100%;
+    height: 100%;
+    font-size: x-small;
+    background-color: cadetblue;
+    border: 10px solid black ;
+    margin: 0px;
+}
+
+button:hover{
+    background-color: blue;
+    font-size: xx-large;
+    border-radius: 100%;
+    
+}
+
+div.d1:hover{
+    background-color: black;
+    
+}
